@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1340
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "igger", "igger\igger.vcxproj", "{452C6BEB-78C8-4239-B37D-CAD3528DCAE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{452C6BEB-78C8-4239-B37D-CAD3528DCAE8}.Debug|x64.ActiveCfg = Debug|x64
+		{452C6BEB-78C8-4239-B37D-CAD3528DCAE8}.Debug|x64.Build.0 = Debug|x64
+		{452C6BEB-78C8-4239-B37D-CAD3528DCAE8}.Debug|x86.ActiveCfg = Debug|Win32
+		{452C6BEB-78C8-4239-B37D-CAD3528DCAE8}.Debug|x86.Build.0 = Debug|Win32
+		{452C6BEB-78C8-4239-B37D-CAD3528DCAE8}.Release|x64.ActiveCfg = Release|x64
+		{452C6BEB-78C8-4239-B37D-CAD3528DCAE8}.Release|x64.Build.0 = Release|x64
+		{452C6BEB-78C8-4239-B37D-CAD3528DCAE8}.Release|x86.ActiveCfg = Release|Win32
+		{452C6BEB-78C8-4239-B37D-CAD3528DCAE8}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8652BE40-359E-4B4F-A94B-62D86E098BE0}
+	EndGlobalSection
+EndGlobal
