@@ -5,6 +5,7 @@
 using namespace hazedumper; // Use hazedumper namespace for quicker access
 using namespace signatures; // Use signatures namespace for quicker access
 using namespace netvars; // Use netvars namespace for quicker access
+using namespace std; // Use std namespace for quicker access 
 
 void Bhop(DWORD client, DWORD local) // Bhop function
 {
@@ -62,14 +63,14 @@ DWORD APIENTRY MainThread(HMODULE hModule) // MainThread function
 	DWORD client = (DWORD)GetModuleHandle("client.dll"); // Define client.dll base module handle
 	DWORD localPlayer = *(DWORD*)(client + dwLocalPlayer); // Define localplayer
 
-	std::cout << "attached to game\n"; // Signal that dll has attached to game
+	cout << "attached to game\n"; // Signal that dll has attached to game
 	Beep(500, 250); // Make beep to notify of dll attaching
 
 	if (localPlayer == NULL) // Check to see if localplayer is not valid
 		while (localPlayer == NULL) // Create loop where the condition is the localplayer is not valid
 			localPlayer = *(DWORD*)(client + dwLocalPlayer); // Keep defining localplayer until valid
 
-	std::cout << "running cheat loop\n"; // Signal that it is about run main cheat loop
+	cout << "running cheat loop\n"; // Signal that it is about run main cheat loop
 	while (!GetAsyncKeyState(VK_END)) // Run main cheat loop until end key is pressed
 	{
 		Bhop(client, localPlayer); // Call Bhop function
